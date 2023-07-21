@@ -147,6 +147,7 @@ document.querySelector('.famous-human .blue-btn').addEventListener('click', (e) 
 document.querySelector('.emoji-section .blue-btn').addEventListener('click', (e) => {
     document.querySelector('.emoji-section').classList.remove('openSection');
     document.querySelector('.book-section').classList.add('openSection');
+    document.querySelector('.main-container').style.cssText = 'min-height: 93vh'
     progressBar.value = 80;
     document.querySelector('#point3').classList.add('active-point')
     document.querySelector('#point3').classList.remove('next-point')

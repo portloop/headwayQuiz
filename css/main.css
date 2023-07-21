@@ -1000,6 +1000,54 @@ body {
     .book-section img {
         width: 50%;
     }
+
+    .sg-container {
+        transform: translateY(50%);
+    }
+    .main-container {
+        min-height: 86vh;
+        position: relative;
+    }
+
+    .blue-btn {
+        position: absolute;
+        bottom: 10%;
+        width: 95% !important;
+    }
+    .multiselect-section .blue-btn {
+        max-width: unset;
+    }
+
+    .esf-container {
+        position: absolute;
+        bottom: 20%;
+        left: 0;
+    }
+
+    .book-section .buttons {
+        position: absolute;
+        bottom: 10%;
+        justify-content: space-between;
+    }
+
+    .review-block {
+        position: absolute;
+        bottom: 10%;
+        left: 6.5%;
+    }
+
+    .final-section .blue-btn {
+        left: 2.5%;
+        transform: translateX(2.5%);
+    }
+
+    .es-emoji-module {
+        justify-content: center;
+    }
+
+    .emoji-section .blue-btn {
+        left: 2.5%;
+    }
 }
 
 
